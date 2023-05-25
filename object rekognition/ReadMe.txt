@@ -17,11 +17,11 @@ Installation
 
 Usage
 
-    Replace the placeholder values in the script with your own AWS access key, secret key, and region.
+    Replace the script's placeholder values with your AWS access key, secret key, and region.
     Provide the path to the image file you want to analyze by replacing the variable "photo" in the script.
     Run the script using the command python object-detection.py.
     The script will connect to AWS Rekognition and perform object detection on the provided image.
-    The detected objects along with their confidence scores will be displayed on the image  as the output.
+    The detected objects along with their confidence scores will be displayed on the image as the output.
 
 Notes
 
