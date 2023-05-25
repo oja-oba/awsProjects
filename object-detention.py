@@ -17,7 +17,7 @@ with open('secret.csv', 'r') as file :
 client = boto3.client('rekognition',region_name = 'us-west-2', aws_access_key_id = access_key_id, aws_secret_access_key = secret_access_key)
 
 #replace with the desire path to the image you want to run the script on 
-photo ='flower.jpg'
+photo ='people.jpg'
 
 with open(photo,'rb') as image_file :
     source_bytes = image_file.read()
